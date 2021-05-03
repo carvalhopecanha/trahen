@@ -1,9 +1,6 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+ 
+
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -25,12 +22,7 @@ h6 {
     color: rgb(35, 39, 42)
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     margin-bottom: 15px;
 }
 /*
@@ -39,6 +31,60 @@ section {
     margin-bottom: 150px;
 }
 */ 
+
+.sjbv{
+    color: #238f27;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+ .ljtxt{
+    margin: 70px 0;
+    left: 200px;
+  padding: 100px 50px; 
+ }
+
+.loja{
+    height:  800px;
+}
+
+.colunalj{
+    width: 45%;
+   
+}
+.bglj{
+    background: url("../img/SVG/bgljo.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.colunaimglj{
+    width: 55%;
+}
+
+
+.imglj{
+    
+    background: url("../img/imglj2.png");
+ 
+    
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+}
+
+
+
+
+
+
 .btnloja {
     background-color: #238f27;
     border: none;
@@ -186,6 +232,9 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+  
 }
 
 .fog {
@@ -270,6 +319,18 @@ input {
 
 
 /*   ======================= */
+.barr{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 .title {
     position: absolute;
